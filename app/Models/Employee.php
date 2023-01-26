@@ -11,7 +11,7 @@ class Employee extends Model
 {
     use HasFactory;
 
-    public $fillable = ['name','email','phone_number','company_id'];
+    protected $fillable = ['name','email','phone_number','company_id'];
 
     /**
      * @return BelongsTo
