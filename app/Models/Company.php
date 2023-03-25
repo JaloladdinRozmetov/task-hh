@@ -11,7 +11,7 @@ class Company extends Model
 {
     use HasFactory;
 
-    public $fillable = ['name','email','coordinate_y','coordinate_x','image'];
+    protected $fillable = ['name','email','coordinate_y','coordinate_x','image'];
 
     /**
      * @return HasMany
